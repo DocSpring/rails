@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
-require "action_mailbox/test_helper"
 require "active_support/test_case"
+return unless defined? ActiveSupport::TestCase
+
+require "action_mailbox/test_helper"
 
 module ActionMailbox
   class TestCase < ActiveSupport::TestCase

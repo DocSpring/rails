@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require "active_support/test_case"
+return unless defined? ActiveSupport::TestCase
+
 require "rails/generators"
 require "rails/generators/testing/behaviour"
 require "rails/generators/testing/setup_and_teardown"

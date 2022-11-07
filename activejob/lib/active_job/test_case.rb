@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "active_support/test_case"
+return unless defined? ActiveSupport::TestCase
 
 module ActiveJob
   class TestCase < ActiveSupport::TestCase

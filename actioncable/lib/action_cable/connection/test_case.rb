@@ -1,7 +1,9 @@
 # frozen_string_literal: true
 
-require "active_support"
 require "active_support/test_case"
+return unless defined? ActiveSupport::TestCase
+
+require "active_support"
 require "active_support/core_ext/hash/indifferent_access"
 require "action_dispatch"
 require "action_dispatch/http/headers"

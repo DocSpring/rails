@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
+require "active_support/test_case"
+return unless defined? ActiveSupport::TestCase
+
 require "active_support/core_ext/module/redefine_method"
 require "action_controller"
-require "action_controller/test_case"
 require "action_view"
 
 require "rails-dom-testing"

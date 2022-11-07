@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require "active_support/test_case"
+return unless defined? ActiveSupport::TestCase
+
 gem "capybara", ">= 2.15"
 
 require "capybara/dsl"
